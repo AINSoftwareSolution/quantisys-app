@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
 import { MdFlightTakeoff } from "react-icons/md";
 import { GiCruiser } from "react-icons/gi";
 import { FaCarAlt } from "react-icons/fa";

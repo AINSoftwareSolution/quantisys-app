@@ -26,7 +26,7 @@ import CFOImg from "./customer-service.png"
 //  Contact
 import ContactImage from "./contact1.jpg"
 
-import AirlineImage from "./airplane1.jpg"
+import AirlineImage from "./airline (1).jpg"
 import TravelAgency from "./travela (2).jpg"
 import Hospitality from "./hospitality1 (3).jpg"
 import CarRental from "./carRental01 (1).jpg"

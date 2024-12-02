@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import { testimonialData } from "../utilis/data";
 import { FaStar, FaRegStar, FaStarHalf } from "react-icons/fa";
 
@@ -39,13 +40,13 @@ const Testimonial = () => {
               className="text-center bg-white p-6 rounded-lg shadow-lg"
             >
               <div className="flex justify-center mb-4">
-                <img
+                <Image
                   src={testimonial.img}
                   alt={testimonial.name}
                   className="rounded-full shadow-lg transition-all duration-400 hover:scale-110"
                   width="150"
                   height="150"
-                />
+               />
               </div>
               <h5 className="text-lg font-medium mb-2">{testimonial.name}</h5>
               <h6 className="text-primary-500 text-blue-500 mb-3">

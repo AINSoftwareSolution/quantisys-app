@@ -1,9 +1,7 @@
 import React from "react";
-import Image from "next/image";
 import { FaLocationDot } from "react-icons/fa6";
 import { MdAddCall } from "react-icons/md";
 import { MdMarkEmailRead } from "react-icons/md";
-import { ContactImage } from "../utilis/Images";
 
 const Contact = () => {
   return (

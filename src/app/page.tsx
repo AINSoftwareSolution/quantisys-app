@@ -9,12 +9,10 @@ import {
   CruiseLine,
   hosp,
   sections,
-  stats,
   WhyChooseUs,
 } from "./utilis/data";
 import React from "react";
 import Link from "next/link";
-import Services from "./services/page";
 import Testimonial from "./Components/Testimonial";
 import { MdCardTravel, MdFlightTakeoff } from "react-icons/md";
 import {
