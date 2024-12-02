@@ -21,6 +21,18 @@ from "./Images";
 import { GiCruiser } from "react-icons/gi";
 import { FaCarAlt } from "react-icons/fa";
 
+// footer 
+// import { FaLinkedin } from "react-icons/fa";
+// import { FaFacebook } from "react-icons/fa";
+// import { FaInstagram } from "react-icons/fa6";
+// import { FaSquareXTwitter } from "react-icons/fa6";
+
+// export {
+//   FaLinkedin,
+//   FaFacebook,
+//   FaInstagram,
+//   FaSquareXTwitter,
+// }
 
 
 
@@ -159,27 +171,156 @@ export const WhyChooseUs = [
   
   // Testimonial
 
+  export const testimonialData = [
+    {
+      name: "Maria Smantha",
+      role: "Web Developer",
+      img: "https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp",
+      quote: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod eos id officiis hic tenetur quae quaerat ad velit ab hic tenetur.",
+      stars: 4.5,
+    },
+    {
+      name: "Lisa Cudrow",
+      role: "Graphic Designer",
+      img: "https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp",
+      quote: "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid commodi.",
+      stars: 5,
+    },
+    {
+      name: "John Smith",
+      role: "Marketing Specialist",
+      img: "https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp",
+      quote: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti.",
+      stars: 4,
+    },
+  ];
 
-export const cardData = [
-  {
-    id: 1,
-    quote: "Calvin: You know sometimes when I'm talking, my words can't keep up with my thoughts... I wonder why we think faster than we speak. Hobbes: Probably so we can think twice.",
-    imgSrc: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample3.jpg",
-    author: "Pelican Steve",
-    site: "LittleSnippets.net",
-  },
-  {
-    id: 2,
-    quote: "Thank you. Before I begin, I'd like everyone to notice that my report is in a professional, clear plastic binder... When a report looks this good, you know it'll get an A. That's a tip kids. Write it down.",
-    imgSrc: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample27.jpg",
-    author: "Max Conversion",
-    site: "LittleSnippets.net",
-  },
-  {
-    id: 3,
-    quote: "My behaviour is addictive functioning in a disease process of toxic co-dependency. I need holistic healing and wellness before I'll accept any responsibility for my actions.",
-    imgSrc: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample17.jpg",
-    author: "Eleanor Faint",
-    site: "LittleSnippets.net",
-  },
-];
+
+  // services 
+  export const sections = [
+    {
+      title: "Make client setup, bookings, and trip management simple and intuitive",
+      description:
+        "Deliver world-class sales and bookings support for groups of any size. Keep clients coming back with easy-to-use client tools, integrated support channels, and premium concierge services.",
+    },
+    {
+      title: "Integrate back-office functions to streamline fulfillment, ticketing, and more",
+      description:
+        "Integrate critical front-and-back-office functions to ensure consistent, high-quality customer engagement across all touchpoints and throughout the trip management process.",
+    },
+  ];
+
+  // Data for stats section
+  export const stats = [
+    {
+      value: 40,
+      unit: "%",
+      description: "Reduction in agency debit memos (ADM)",
+    },
+    {
+      value: 30,
+      unit: "%",
+      description: "Decrease in average handle time (AHT)",
+    },
+  ];
+
+  export const air = [
+    {
+    
+      title: "Leverage our deep industry knowledge",
+      description:
+        "At TP, we understand that airlines are facing high volumes, an elevated cost-to-serve, seasonal spikes, challenges with passenger support, and operational inefficiencies. Learn more about our proven, industry-specific tools and best practices.",
+    },
+    {
+     
+      title: "Create companywide operational efficiencies",
+      description:
+        "Eliminate counterproductive silos by digitally integrating the front, middle, and back-office functions. Streamline end-to-end business operations and connect the entire customer journey to ensure consistent experiences across all touchpoints.",
+    },
+  ];
+
+  // Hospitality 
+    export const hosp = [
+    {
+      title: "Seamless reservations elevate bookings",
+      description:
+        "Deliver world-class sales and bookings support for groups of any size. Keep clients coming back with easy-to-use client tools, integrated support channels, and premium concierge services.",
+    },
+    {
+      title: "Keep guests coming back with world-class service",
+      description:
+        "        Use integrated, digital-first tools to keep guests close and connected during their stay. Then, help them plan return visits with upsell and cross-sell offers and options.",
+    },
+  ];
+
+  // Data for stats section
+  export const stat = [
+    {
+      value: 60,
+      unit: "%",
+      description: "Reduction in agency debit memos (ADM)",
+    },
+    {
+      value: 40,
+      unit: "%",
+      description: "Decrease in average handle time (AHT)",
+    },
+  ];
+
+   
+  export const car = [
+    {
+      title: "Empower travelers through intuitive, self-service tools and integrated customer support options",
+      description:
+        "Deliver a frictionless travel experience with easy-to-use booking and support tools, and increase upsell conversions with intelligent offers via each customer&props;s preferred channels."
+
+    },
+    {
+      title: "Eliminate back-office silos to maximize business-wide efficiencies",
+      description:
+        " By integrating critical front-and-back office functions and applying proven Lean Six Sigma methodologies, companies can drive end-to-end efficiencies through process automation and operational disciplines.",
+    },
+  ];
+
+  // Data for stats section
+  // export const Stats = [
+  //   {
+  //     value: 60,
+  //     unit: "%",
+  //     description: "Reduction in agency debit memos (ADM)",
+  //   },
+  //   {
+  //     value: 40,
+  //     unit: "%",
+  //     description: "Decrease in average handle time (AHT)",
+  //   },
+  // ];
+
+  //  Cruise line 
+  export const CruiseLine = [
+    {
+      title: " Deliver a seamless experience from booking to debarkation",
+      description:
+        " Simplify the reservation management process with  simple, self-service options, offer easy-to-add upgrades and excursions, and maintain close contact with travelers while on-board."
+
+    },
+    {
+      title: "Increase upsell conversions",
+      description:
+        "    Increase up-sell conversions with predictive modeling and integrated, cross-channel promotions.",
+    },
+  ];
+
+  // Data for stats section
+  export const Stats = [
+    {
+      value: 50,
+      unit: "%",
+      description: "Reduction in agency debit memos (ADM)",
+    },
+    {
+      value: 30,
+      unit: "%",
+      description: "Decrease in average handle time (AHT)",
+    },
+  ];

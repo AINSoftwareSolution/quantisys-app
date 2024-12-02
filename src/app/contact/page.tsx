@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <>
       <div className="overflow-hidden">
-        <div className="relative bg-[#213b52] text-white mb-8 overflow-hidden h-60 w-full">
+        <div className="relative bg-gray-400 mb-8 overflow-hidden h-60 w-full">
           <div className="absolute inset-0 flex flex-col justify-center items-center text-center p-4 z-10">
             <h2 className="text-4xl font-bold mb-2">Contact Us</h2>
           <p className="text-xl">Feel free To Contact Us</p>
@@ -42,11 +42,8 @@ const Contact = () => {
           >
             <iframe
               className="w-full h-64 rounded-lg border-0"
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus"
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            />
+               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.4234423646853!2d73.89273397519031!3d18.464469182618252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2ea6751372563%3A0x10cc07f6e91e959a!2sThe%20Vue!5e0!3m2!1sen!2sin!4v1732547609496!5m2!1sen!2sin" width="600" height="450" loading="lazy" referrerPolicy="no-referrer-when-downgrade">
+             </iframe>
           </div>
 
           <div className="container mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -63,7 +60,7 @@ const Contact = () => {
                     Address
                   </h3>
                   <p className="text-gray-900">
-                    A108 Adam Street, New York, NY 535022
+                  The VUE Parge Colony, Pune, Maharashtra 411048, IN  
                   </p>
                 </div>
               </div>
@@ -79,7 +76,7 @@ const Contact = () => {
                   <h3 className="text-lg font-semibold text-gray-900">
                     Call Us
                   </h3>
-                  <p className="text-gray-900">+1 5589 55488 55</p>
+                  <p className="text-gray-900">+91-7709 502204</p>
                 </div>
               </div>
 
@@ -94,7 +91,7 @@ const Contact = () => {
                   <h3 className="text-lg font-semibold text-gray-900">
                     Email Us
                   </h3>
-                  <p className="text-gray-900">info@example.com</p>
+                  <p className="text-gray-900">info@quantisysglobal.com</p>
                 </div>
               </div>
             </div>

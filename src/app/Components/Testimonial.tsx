@@ -1,36 +1,69 @@
-import React from 'react'
-import Link from 'next/link'
-import Image from 'next/image'
-import { cardData } from '../utilis/data'
+import React from "react";
+import { testimonialData } from "../utilis/data";
+import { FaStar, FaRegStar, FaStarHalf } from "react-icons/fa";
 
 const Testimonial = () => {
+  const getStars = (rating: number) => {
+    const fullStars = Math.floor(rating);
+    const halfStar = rating % 1 !== 0;
+    const emptyStars = 5 - fullStars - (halfStar ? 1 : 0);
+
+    return (
+      <>
+        {[...Array(fullStars)].map((_, i) => (
+          <FaStar key={`full-${i}`} className="text-yellow-500" />
+        ))}
+        {halfStar && <FaStarHalf key="half-star" className="text-yellow-500" />}
+        {[...Array(emptyStars)].map((_, i) => (
+          <FaRegStar key={`empty-${i}`} className="text-gray-300" />
+        ))}
+      </>
+    );
+  };
+
   return (
-    <div className="flex justify-center items-center flex-wrap bg-gray-900 min-h-screen">
-    {cardData.map((card) => (
-      <div
-        key={card.id}
-        className="relative overflow-hidden m-2 min-w-[220px] max-w-[310px] w-full text-gray-800 text-left shadow-none"
-      >
-        <blockquote className="block relative bg-gray-100 rounded-lg p-6 text-sm font-medium italic leading-6">
-          {card.quote}
-          <div className="absolute top-full w-0 h-0 border-l-0 border-r-[25px] border-transparent border-t-[25px] border-gray-100"></div>
-        </blockquote>
-        <img
-          className="absolute top-10 left-2.5 rounded-full h-24 w-24"
-          src={card.imgSrc}
-          alt={`${card.author}'s profile`}
-        />
-        <div className="absolute bottom-10 left-28">
-          <h5 className="text-white text-xs font-extrabold uppercase opacity-80">
-            {card.author}
-            <span className="font-normal lowercase pl-1">{card.site}</span>
-          </h5>
+    <section className="py-12 bg-white">
+      <div className="container mx-auto px-2 py-8 lg:px-12">
+        <div className="text-center max-w-2xl mx-auto mb-8"  data-aos= "fade-up">
+          <h3 className="text-3xl  text-[#213b52] font-semibold mb-4">Testimonials</h3>
+          <p className="text-2xl text-gray-900">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet
+            numquam iure provident voluptate esse quasi.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8"  data-aos= "fade-up">
+          {testimonialData.map((testimonial, index) => (
+            <div
+              key={index}
+              className="text-center bg-white p-6 rounded-lg shadow-lg"
+            >
+              <div className="flex justify-center mb-4">
+                <img
+                  src={testimonial.img}
+                  alt={testimonial.name}
+                  className="rounded-full shadow-lg transition-all duration-400 hover:scale-110"
+                  width="150"
+                  height="150"
+                />
+              </div>
+              <h5 className="text-lg font-medium mb-2">{testimonial.name}</h5>
+              <h6 className="text-primary-500 text-blue-500 mb-3">
+                {testimonial.role}
+              </h6>
+              <p className="text-gray-700 italic mb-4">
+                <i className="fas fa-quote-left pr-2"></i>
+                {testimonial.quote}
+              </p>
+              <div className="flex justify-center space-x-1">
+                {getStars(testimonial.stars)}
+              </div>
+            </div>
+          ))}
         </div>
       </div>
-    ))}
-  </div>
+    </section>
+  );
+};
 
-  )
-}
-
-export default Testimonial
+export default Testimonial;
