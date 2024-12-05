@@ -58,7 +58,7 @@ const About = () => {
           </div>
 
           {/* Statistics Section */}
-          <div className="bg-gray-50 py-8">
+          <div className="bg-white py-8">
             <div className="container mx-auto grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
               {[
                 { count: 4, label: "Global Presence" },

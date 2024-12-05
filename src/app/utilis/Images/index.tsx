@@ -26,11 +26,11 @@ import CFOImg from "./customer-service.png"
 //  Contact
 import ContactImage from "./contact1.jpg"
 
-import AirlineImage from "./airline (1).jpg"
-import TravelAgency from "./travela (2).jpg"
-import Hospitality from "./hospitality1 (3).jpg"
-import CarRental from "./carRental01 (1).jpg"
-import CruiseImg from "./cruise1 (1).jpg"
+import AirlineImage from "./airline.jpg"
+import TravelAgency from "./travel-agency.jpg"
+import Hospitality from "./hospitality.jpg"
+import CarRental from "./carRental.jpg"
+import CruiseImg from "./cruise.jpg"
 
 import PrivacyImg from "./Privacy.jpg"
 import TermsAndConditionsImage  from "./terms&condition.jpg"

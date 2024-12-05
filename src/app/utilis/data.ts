@@ -199,86 +199,86 @@ export const WhyChooseUs = [
   // services 
   export const sections = [
     {
-      title: "Make client setup, bookings, and trip management simple and intuitive",
+      title: "Simplify and enhance client setup, bookings, and trip management with a seamless, intuitive process that prioritizes convenience, efficiency.",
       description:
-        "Deliver world-class sales and bookings support for groups of any size. Keep clients coming back with easy-to-use client tools, integrated support channels, and premium concierge services.",
+        "Provide exceptional sales and booking support tailored for groups of all sizes. Ensure seamless client experiences with intuitive tools, integrated support channels, and personalized concierge services. Foster long-term client relationships with innovative solutions.",
     },
     {
-      title: "Integrate back-office functions to streamline fulfillment, ticketing, and more",
+      title: "Integrate back-office operations to optimize fulfillment, streamline ticketing, and enhance overall efficiency.",
       description:
-        "Integrate critical front-and-back-office functions to ensure consistent, high-quality customer engagement across all touchpoints and throughout the trip management process.",
+        "Seamlessly integrate essential front- and back-office functions to deliver consistent, high-quality customer experiences across every interaction and throughout the entire trip management journey. Ensure smooth coordination and elevated.",
     },
   ];
 
   // Data for stats section
-  export const stats = [
-    {
-      value: 40,
-      unit: "%",
-      description: "Reduction in agency debit memos (ADM)",
-    },
-    {
-      value: 30,
-      unit: "%",
-      description: "Decrease in average handle time (AHT)",
-    },
-  ];
+  // export const stats = [
+  //   {
+  //     value: 40,
+  //     unit: "%",
+  //     description: "Reduction in agency debit memos (ADM)",
+  //   },
+  //   {
+  //     value: 30,
+  //     unit: "%",
+  //     description: "Decrease in average handle time (AHT)",
+  //   },
+  // ];
 
   export const air = [
     {
     
-      title: "Leverage our deep industry knowledge",
+      title: "Leverage our industry expertise to achieve impactful results.",
       description:
-        "At TP, we understand that airlines are facing high volumes, an elevated cost-to-serve, seasonal spikes, challenges with passenger support, and operational inefficiencies. Learn more about our proven, industry-specific tools and best practices.",
+        "At Quantisys, we recognize the challenges airlines face, including high demand, rising service costs, seasonal surges, passenger support complexities, and operational inefficiencies. Discover our proven, industry-tailored solutions.",
     },
     {
      
-      title: "Create companywide operational efficiencies",
+      title: "Drive operational excellence across the organization, enhancing efficiency and performance at every level.",
       description:
-        "Eliminate counterproductive silos by digitally integrating the front, middle, and back-office functions. Streamline end-to-end business operations and connect the entire customer journey to ensure consistent experiences across all touchpoints.",
+        "Break down silos by digitally unifying front, middle, and back-office functions. Simplify operations and link the entire customer journey to deliver seamless, consistent experiences at every touchpoint.",
     },
   ];
 
   // Hospitality 
     export const hosp = [
     {
-      title: "Seamless reservations elevate bookings",
+      title: "Streamlined reservations boost booking efficiency for a smoother experience.",
       description:
-        "Deliver world-class sales and bookings support for groups of any size. Keep clients coming back with easy-to-use client tools, integrated support channels, and premium concierge services.",
+        "Provide exceptional sales and booking support for groups of all sizes. Foster client loyalty with user-friendly tools, seamless support channels, and top-tier concierge services.",
     },
     {
-      title: "Keep guests coming back with world-class service",
+      title: "Ensure guests return with exceptional service and unforgettable experiences.",
       description:
-        "        Use integrated, digital-first tools to keep guests close and connected during their stay. Then, help them plan return visits with upsell and cross-sell offers and options.",
+        " Utilize integrated, digital-first tools to keep guests engaged and connected throughout their stay. Then, encourage future visits with personalized upsell and cross-sell opportunities.",
     },
   ];
 
   // Data for stats section
-  export const stat = [
-    {
-      value: 60,
-      unit: "%",
-      description: "Reduction in agency debit memos (ADM)",
-    },
-    {
-      value: 40,
-      unit: "%",
-      description: "Decrease in average handle time (AHT)",
-    },
-  ];
+  // export const stat = [
+  //   {
+  //     value: 60,
+  //     unit: "%",
+  //     description: "Reduction in agency debit memos (ADM)",
+  //   },
+  //   {
+  //     value: 40,
+  //     unit: "%",
+  //     description: "Decrease in average handle time (AHT)",
+  //   },
+  // ];
 
    
   export const car = [
     {
-      title: "Empower travelers through intuitive, self-service tools and integrated customer support options",
+      title: "Empower travelers with user-friendly, self-service tools and seamless customer support options for a smoother experience.",
       description:
-        "Deliver a frictionless travel experience with easy-to-use booking and support tools, and increase upsell conversions with intelligent offers via each customer&props;s preferred channels."
+        "Provide a seamless travel experience with intuitive booking and support tools while boosting upsell conversions through personalized, intelligent offers delivered via customers preferred channels."
 
     },
     {
-      title: "Eliminate back-office silos to maximize business-wide efficiencies",
+      title: "Break down back-office silos to unlock organization-wide efficiencies and drive streamlined operations across the business.",
       description:
-        " By integrating critical front-and-back office functions and applying proven Lean Six Sigma methodologies, companies can drive end-to-end efficiencies through process automation and operational disciplines.",
+        " Integrating key front- and back-office functions with proven Lean Six Sigma strategies enables companies to achieve end-to-end efficiency through advanced process automation and robust operational practices.",
     },
   ];
 
@@ -299,15 +299,15 @@ export const WhyChooseUs = [
   //  Cruise line 
   export const CruiseLine = [
     {
-      title: " Deliver a seamless experience from booking to debarkation",
+      title: "Ensure a hassle-free experience from initial booking to final disembarkation, delivering excellence at every step of the journey.",
       description:
-        " Simplify the reservation management process with  simple, self-service options, offer easy-to-add upgrades and excursions, and maintain close contact with travelers while on-board."
+        " Streamline the reservation management process with intuitive self-service options, seamless add-ons for upgrades and excursions, and consistent communication with travelers throughout their journey."
 
     },
     {
-      title: "Increase upsell conversions",
+      title: "Boost upsell success rates and drive higher conversion outcomes.",
       description:
-        "    Increase up-sell conversions with predictive modeling and integrated, cross-channel promotions.",
+        "Maximize up-sell conversions by leveraging advanced predictive modeling, personalized recommendations, and integrated, multi-channel promotional campaigns tailored to customer preferences.",
     },
   ];
 

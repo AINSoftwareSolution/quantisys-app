@@ -197,9 +197,7 @@ export default function Home() {
             Travel Agency
           </h2>
           <p className="text-lg px-4">
-            Efficiently manage the full booking and travel experience with
-            intelligent, end-to-end traveler support services to maximize
-            satisfaction and drive long-term loyalty.
+          Effectively oversee the entire booking and travel journey with smart, comprehensive traveler support services designed to enhance satisfaction, build trust, and foster long-term loyalty. Optimize every step of the experience to ensure seamless and memorable travel for every client.
           </p>
           <Link href="/services#travel" rel="noopener noreferrer">
   <button className="btn text-16 px-6 py-2 mt-6 bg-[#213b52] text-white rounded-lg hover:bg-sky-400 transition">
@@ -265,13 +263,7 @@ export default function Home() {
         <div className="text-center mt-6" data-aos="fade-up">
           <h2 className="text-3xl text-[#213b52] font-bold mb-4">Airlines</h2>
           <p className="text-lg px-4">
-            Despite the many headwinds airlines have had to navigate in recent
-            years, growth and prosperity are on the horizon. With the right
-            business services partner, they can achieve higher employee
-            satisfaction (E-SAT) and customer satisfaction (C-SAT), quickly
-            scale to address seasonal needs, realize operational efficiencies,
-            and improve revenue. Embrace the journey and see why many of the
-            world&apos;s top airlines already trust TP.
+          Despite recent challenges, airlines are poised for growth and success. Partnering with the right business services provider enables them to enhance employee and customer satisfaction, adapt to seasonal demands, boost operational efficiency, and drive revenue growth. Discover why leading airlines worldwide trust Quantisys to elevate their journey.
           </p>
           <button className="btn text-16 px-6 py-2 mt-6 bg-[#213b52] text-white rounded-lg hover:bg-sky-400 transition">
             Learn More
@@ -322,8 +314,7 @@ export default function Home() {
             Hospitality
           </h2>
           <p className="text-lg px-4">
-            Optimize the guest experience with integrated reservation management
-            and on-site support via the channels they prefer.
+          Enhance the guest experience by integrating reservation management and providing on-site support through their preferred communication channels.
           </p>
 
           <button className="btn text-[16px] px-6 py-2 mt-6 bg-[#213b52] text-white rounded-lg hover:bg-sky-400 transition">
@@ -373,14 +364,12 @@ export default function Home() {
     </div>
   </div>
 </div>
-
       <div className="container mx-auto px-4">
         {/* Header Section */}
         <div className="text-center mt-6" data-aos="fade-up">
           <h2 className="text-3xl text-[#213b52] font-bold mb-4">Car Rental</h2>
           <p className="text-lg px-4">
-            Streamline the rental experience through automated tools and a
-            digital-first approach that will create companywide efficiencies.
+          Simplify the rental process with automated tools and a digital-first strategy that drives efficiency across the entire organization.
           </p>
           <button className="text-[16px] px-6 py-2 mt-6 bg-[#213b52] text-white rounded-lg hover:bg-sky-400 transition">
             Learn More
@@ -432,9 +421,7 @@ export default function Home() {
             Cruise Lines{" "}
           </h2>
           <p className="text-lg px-4">
-            Accelerate recovery by maximizing bookings and upsell conversions,
-            while also maximizing operational efficiencies with an intelligent,
-            digital-first approach including process automation.
+          Drive rapid recovery by increasing bookings and up-sell conversions while optimizing operational efficiency through a smart, digital-first strategy powered by process automation and advanced analytics.
           </p>
           <button className="btn text-16 px-6 py-2 mt-6 bg-[#213b52] text-white rounded-lg hover:bg-sky-400 transition">
             Learn More
@@ -490,7 +477,7 @@ export default function Home() {
                 key={service.id}
                 className="service-item bg-white shadow-md rounded-lg overflow-hidden transform hover:scale-105 transition duration-300"
                 data-aos="zoom-in"
-                data-aos-delay={`${200 + index * 100}`} // dynamically set delay based on index
+                data-aos-delay={`${200 + index * 100}`} 
               >
                 {/* Image */}
                 <div className="img">

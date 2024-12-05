@@ -45,12 +45,12 @@ const Services = () => {
           className="container mx-auto text-center px-4 sm:px-6 lg:px-12 py-8"
           data-aos="fade-up"
         >
-          <h2 className="text-2xl sm:text-3xl md:text-4xl text-[#213b52] font-bold mb-4">
+          {/* <h2 className="text-2xl sm:text-3xl md:text-4xl text-[#213b52] font-bold mb-4">
             Our Services
           </h2>
           <h5 className="text-gray-900 text-lg sm:text-xl md:text-2xl">
             Travel business process outsourcing services
-          </h5>
+          </h5> */}
         </div>
 
         {/* Online Travel Agency Section */}
@@ -158,13 +158,13 @@ const Services = () => {
           <div className="relative z-10 flex items-center justify-center h-[300px] ">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-white text-center">
               {/* Left Section */}
-              <div>
+              {/* <div>
                 <h1 className="text-3xl font-bold text-white mb-4 mx-10 ">
                   Latin American Based Online Travel Agency
                 </h1>
-              </div>
+              </div> 
 
-              {/* Middle Section */}
+              {/* Middle Section 
               <div className="text-white gap-4  ">
                 <div>
                   <label className="text-4xl font-bold">40</label>
@@ -174,13 +174,13 @@ const Services = () => {
               </div>
 
               {/* Right Section */}
-              <div className="text-white gap-4">
+              {/* <div className="text-white gap-4">
                 <div>
                   <label className="text-4xl font-bold">30</label>
                   <span className="text-3xl">%</span>
                 </div>
                 <p className="text-md">Decrease in average handle time (AHT)</p>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -208,7 +208,7 @@ const Services = () => {
                   (C-SAT), quickly scale to address seasonal needs, realize
                   operational efficiencies, and improve revenue. Embrace the
                   journey and see why many of the world&apos;s top airlines
-                  already trust TP.
+                  already trust .
                 </p>
               </div>
 
@@ -243,7 +243,7 @@ const Services = () => {
               </div>
               <div className="text-center mt-4">
                 <p className="text-lg px-10">
-                  At TP, we understand that airlines are facing high volumes, an
+                  At Quantisys, we understand that airlines are facing high volumes, an
                   elevated cost-to-serve, seasonal spikes, challenges with
                   passenger support, and operational inefficiencies. Learn more
                   about our proven, industry-specific tools and best practices.
@@ -299,14 +299,14 @@ const Services = () => {
             <div className="relative z-10 flex items-center justify-center h-[300px]">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-white text-center">
                 {/* Left Section */}
-                <div>
+                {/* <div>
                   <h1 className="text-3xl font-bold text-white mb-4 px-8">
                     USA Based Carrier
                   </h1>
-                </div>
+                </div> */}
 
                 {/* Middle Section */}
-                <div className="text-white gap-4  ">
+                {/* <div className="text-white gap-4  ">
                   <div>
                     <label className="text-4xl font-bold">50</label>
                     <span className="text-3xl">%</span>
@@ -314,10 +314,10 @@ const Services = () => {
                   <p className="text-md">
                     Reduction in agency debit memos (ADM)
                   </p>
-                </div>
+                </div> */}
 
                 {/* Right Section */}
-                <div className="text-white gap-4">
+                {/* <div className="text-white gap-4">
                   <div>
                     <label className="text-4xl font-bold">30</label>
                     <span className="text-3xl">%</span>
@@ -325,7 +325,7 @@ const Services = () => {
                   <p className="text-md">
                     Decrease in average handle time (AHT)
                   </p>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -433,14 +433,14 @@ const Services = () => {
             <div className="relative z-10 flex items-center justify-center h-[300px]">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-white text-center">
                 {/* Left Section */}
-                <div>
+                {/* <div>
                   <h1 className="text-3xl font-bold text-white mb-4 px-10">
                     A US Based Hospital Chain
                   </h1>
-                </div>
+                </div> */}
 
                 {/* Middle Section */}
-                <div className="text-white gap-4  ">
+                {/* <div className="text-white gap-4  ">
                   <div>
                     <label className="text-4xl font-bold">50</label>
                     <span className="text-3xl">%</span>
@@ -448,10 +448,10 @@ const Services = () => {
                   <p className="text-md">
                     Reduction in agency debit memos (ADM)
                   </p>
-                </div>
+                </div> */}
 
                 {/* Right Section */}
-                <div className="text-white gap-4">
+                {/* <div className="text-white gap-4">
                   <div>
                     <label className="text-4xl font-bold">30</label>
                     <span className="text-3xl">%</span>
@@ -459,7 +459,7 @@ const Services = () => {
                   <p className="text-md">
                     Decrease in average handle time (AHT)
                   </p>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -682,14 +682,14 @@ const Services = () => {
             <div className="relative z-10 flex items-center justify-center h-[300px]">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-white text-center">
                 {/* Left Section */}
-                <div>
+                {/* <div>
                   <h1 className="text-4xl font-bold text-white text-start mb-4 pl-14 ">
                     A Leading US Based Cruise Line
                   </h1>
-                </div>
+                </div> */}
 
                 {/* Middle Section */}
-                <div className="text-white gap-4  ">
+                {/* <div className="text-white gap-4  ">
                   <div>
                     <label className="text-4xl font-bold">50</label>
                     <span className="text-3xl">%</span>
@@ -697,10 +697,10 @@ const Services = () => {
                   <p className="text-md">
                     Reduction in agency debit memos (ADM)
                   </p>
-                </div>
+                </div> */}
 
                 {/* Right Section */}
-                <div className="text-white gap-4">
+                {/* <div className="text-white gap-4">
                   <div>
                     <label className="text-4xl font-bold">30</label>
                     <span className="text-3xl">%</span>
@@ -708,7 +708,7 @@ const Services = () => {
                   <p className="text-md">
                     Decrease in average handle time (AHT)
                   </p>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

@@ -29,7 +29,7 @@ const Contact = () => {
             className="container mx-auto text-center mb-8"
             data-aos="fade-up"
           >
-            <h2 className="text-4xl font-bold text-gray-800">Contact Us</h2>
+            {/* <h2 className="text-4xl font-bold text-gray-800">Contact Us</h2> */}
           </div>
 
           {/* <!-- Google Maps --> */}
