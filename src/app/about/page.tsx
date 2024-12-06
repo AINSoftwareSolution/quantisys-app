@@ -116,7 +116,7 @@ const About = () => {
                   We are committed to transforming the travel and tourism industry through
                   innovative B2B services, empowering businesses with advanced solutions for
                   sustainable growth.
-                </p>
+                </p> 
               </div>
               <div
                 className="flex justify-center items-center"
